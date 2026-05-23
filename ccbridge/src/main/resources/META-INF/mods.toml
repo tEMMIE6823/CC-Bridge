@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/Temmie/ccbridge/issues"
+
+[[mods]]
+modId="ccbridge"
+version="1.0.0"
+displayName="CC Bridge"
+logoFile=""
+credits="Temmie"
+authors="Temmie"
+description='''
+Provides GetFrequency and SendFrequency as global Lua functions on any ComputerCraft computer.
+Replaces the CC Redstone Link Bridge block-based peripheral.
+'''
+
+[[dependencies.ccbridge]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
